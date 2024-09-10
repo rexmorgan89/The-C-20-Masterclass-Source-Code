@@ -1,10 +1,19 @@
 #include <iostream>
 
+using namespace std;
+
+consteval int get_value(){
+    return 3;
+}
+
 int main(){
-
-    std::cout << "Number1" << std::endl;
-    std::cout << "Number2" << std::endl;
-    std::cout << "Number3" << std::endl;
-
+    cout << "Number1"<< endl;
+    cout << "Number2"<< endl;
+    cout << "Number3"<< endl;
+    for (int i = 0; i < 10; i++)
+    {
+        cout << "Andrew"<< endl;
+    }
+    
     return 0;
 }

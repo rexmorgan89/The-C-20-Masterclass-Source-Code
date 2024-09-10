@@ -1,5 +1,6 @@
 #include <iostream>
 
+using namespace std;
 
 int main(){
    
@@ -8,10 +9,10 @@ int main(){
    int number3 = 0x0F; // Hexadecimal
    int number4 = 0b00001111; // Binary
 
-   std::cout << "number1 : " << number1 << std::endl;
-   std::cout << "number2 : " << number2 << std::endl;
-   std::cout << "number3 : " << number3 << std::endl;
-   std::cout << "number4 : " << number4 << std::endl;
+   cout << "number1 : " << number1 << endl;
+   cout << "number2 : " << number2 << endl;
+   cout << "number3 : " << number3 << endl;
+   cout << "number4 : " << number4 << endl;
    
     return 0;
 }

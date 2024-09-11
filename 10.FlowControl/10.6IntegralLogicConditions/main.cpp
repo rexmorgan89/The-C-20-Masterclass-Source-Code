@@ -3,7 +3,7 @@
 
 int main(){
 
-    int condition {-5};
+    int condition {0};
 
     bool bool_condition = condition;
     std::cout << std::boolalpha;
